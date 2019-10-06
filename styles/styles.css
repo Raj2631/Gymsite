@@ -179,6 +179,21 @@ nav {
   padding-bottom: 0.5rem;
 }
 /*Media queries */
+@media (max-width: 400px) {
+  .mid img {
+    margin-left: 7rem;
+  }
+
+  .b-font {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .box-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 
 @media (max-width: 949px) {
   .mid img {

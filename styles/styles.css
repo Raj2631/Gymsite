@@ -87,8 +87,6 @@ nav {
   width: 90%;
   text-transform: uppercase; 
   margin: auto;
-  
-
 }
 
 .myButton {
@@ -179,31 +177,15 @@ nav {
   padding-bottom: 0.5rem;
 }
 /*Media queries */
-@media (max-width: 400px) {
-  .mid img {
-    margin-left: 5rem;
-  }
-
-  .b-font {
-    margin-left: 1rem;
-    margin-right: 0.5rem;
-  }
-
-  .box-2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
 
 @media (max-width: 949px) {
-  .mid img {
-    margin-left: 9.3rem;
+  .mid  {
+    margin-left: 40%;
   }
 
   .b-font {
-    margin-left: 2rem;
+    margin-left: 7%;
   }
-
   .box-2 {
     margin-top: 10px;
     margin-bottom: 10px;

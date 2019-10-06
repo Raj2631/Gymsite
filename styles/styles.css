@@ -181,7 +181,7 @@ nav {
 /*Media queries */
 @media (max-width: 400px) {
   .mid img {
-    margin-left: 7rem;
+    margin-left: 5rem;
   }
 
   .b-font {

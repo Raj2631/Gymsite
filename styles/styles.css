@@ -319,3 +319,10 @@ nav {
   }
 }
 
+@media (max-width: 400px) {
+ box-1 h1 {
+   margin: 20px;
+   padding: 5px;
+   font-size: 23px;
+  }
+}

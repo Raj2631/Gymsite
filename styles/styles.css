@@ -321,8 +321,8 @@ nav {
 
 @media (max-width: 400px) {
  box-1 h1 {
-   margin: 20px;
-   padding: 5px;
+   margin: 20px auto;
+   padding: 5px auto;
    font-size: 23px;
   }
 }

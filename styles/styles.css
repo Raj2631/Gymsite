@@ -1,5 +1,5 @@
 body {
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -34,7 +34,7 @@ body {
 }
 
 li a {
-  font-family: Open Sans, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 21px;
@@ -96,7 +96,7 @@ nav {
   width: 90%;
   text-transform: uppercase;
   margin: auto;
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 .myButton {
@@ -105,8 +105,8 @@ nav {
   border: 3px solid rgb(0, 128, 255);
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: "Big Shoulders Display", cursive;
+  color: rgb(16, 155, 255);
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -116,7 +116,6 @@ nav {
 }
 .myButton:hover {
   text-decoration: none;
-  background-color: none;
   color: white;
 }
 .myButton:active {
@@ -183,14 +182,14 @@ nav {
 }
 
 .box-2 {
-  color: #555;
+  color: #444;
   padding-top: 1rem;
   text-align: left;
   background-color: white;
 }
 
 .box-2 h5 {
-  color: #555;
+  font-weight: 600;
 }
 
 .b-text {
@@ -268,7 +267,7 @@ h2 {
 
 .t-bg {
   background-color: white;
-  color: #333;
+  color: 484854;
   margin-bottom: 2rem;
 }
 
@@ -281,13 +280,16 @@ h2 {
 }
 
 h4 {
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Montserrat", sans-serif;
   color: rgb(0, 128, 255);
   margin: 1rem 0.5rem;
 }
 
+p {
+  font-size: 1.2rem;
+}
 .f-head {
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Montserrat", sans-serif;
   color: rgb(0, 128, 255);
 }
 
@@ -303,6 +305,7 @@ h4 {
 
 .testi h6 {
   text-align: right;
+  font-weight: 600;
 }
 
 footer {
@@ -333,7 +336,7 @@ footer {
 }
 
 .price-box li a {
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 .info p a:hover {
@@ -356,6 +359,10 @@ footer {
   .container-h {
     margin-right: 0;
     margin-left: 0;
+  }
+
+  .box-1-text h2 {
+    padding-bottom: 0.5rem;
   }
 
   .f-col {
@@ -418,3 +425,18 @@ footer {
     height: auto;
   }
 }
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.info h5 {
+  border-bottom: 1px rgb(190, 183, 183) solid;
+}
+
+.info p,
+.info address {
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
+

@@ -203,7 +203,7 @@ h2 {
 .col {
   float: left;
   width: 33.3%;
-  padding: 8px;
+  padding: 0px 8px;
   box-sizing: border-box;
   margin: 1rem auto;
 }
@@ -343,6 +343,24 @@ footer {
   text-decoration: none;
 }
 
+.p-plan {
+  color: #ddd;
+}
+
+#contacts {
+  background-color: #333;
+}
+
+.f-map {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map,
+.fm {
+  width: 50%;
+}
+
 @media (max-width: 769px) {
   .col {
     width: 100%;
@@ -439,4 +457,3 @@ footer {
   padding-top: 1rem;
   font-size: 0.8rem;
 }
-

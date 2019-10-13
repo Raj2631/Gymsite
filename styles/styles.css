@@ -344,21 +344,38 @@ footer {
 }
 
 .p-plan {
-  color: #ddd;
+  color: #eee;
+}
+
+form {
+  padding: 3rem;
 }
 
 #contacts {
-  background-color: #333;
+  background-color: rgb(16, 155, 255);
 }
 
 .f-map {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 1.3rem;
+  justify-content: center;
 }
 
 .map,
 .fm {
   width: 50%;
+  margin-top: 1.3rem;
+  margin: 1.3rem;
+}
+
+.fm {
+}
+
+.map h4,
+.fm h4 {
+  color: #eee;
+  text-align: center;
 }
 
 @media (max-width: 769px) {
@@ -394,6 +411,21 @@ footer {
   .box-1,
   .box-1 .container {
     margin-right: 0rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .f-map {
+    flex-direction: column;
+  }
+  .map,
+  .fm {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  form {
+    padding: 0;
   }
 }
 

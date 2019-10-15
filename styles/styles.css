@@ -347,8 +347,12 @@ footer {
   color: #eee;
 }
 
-form {
-  padding: 3rem;
+.form-c {
+  border: none;
+  border-bottom: 3px solid #333;
+  margin-bottom: 1rem;
+  width: 30rem;
+  padding: 6px;
 }
 
 #contacts {
@@ -358,6 +362,7 @@ form {
 .f-map {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-bottom: 1.3rem;
   justify-content: center;
 }
@@ -366,10 +371,6 @@ form {
 .fm {
   width: 50%;
   margin-top: 1.3rem;
-  margin: 1.3rem;
-}
-
-.fm {
 }
 
 .map h4,
@@ -421,11 +422,6 @@ form {
   .map,
   .fm {
     width: 100%;
-    margin: 1rem 0;
-  }
-
-  form {
-    padding: 0;
   }
 }
 

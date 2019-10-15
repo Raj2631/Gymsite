@@ -268,13 +268,15 @@
         </div>
         <div class="fm">
           <h4>Contact us</h4>
-          <form action="index.html" method="POST">
+          <form id="contact-form" action="index.html" method="POST">
             <div>
               <input
                 type="text"
                 id="name"
                 name="user_name"
                 placeholder="Name"
+                required
+                class="form-c"
               />
             </div>
             <div>
@@ -283,16 +285,20 @@
                 id="email"
                 name="e_mail"
                 placeholder="E-mail"
+                required
+                class="form-c"
               />
             </div>
             <div>
               <textarea
                 name="msg"
+                class="form-c"
                 id=""
                 cols="40"
-                rows="3"
+                rows="4"
                 id="message"
                 placeholder="Your message"
+                required
               ></textarea>
             </div>
             <button type="submit">Send Message</button>
